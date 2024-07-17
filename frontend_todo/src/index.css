@@ -1,0 +1,17 @@
+
+body {
+  font-family: -apple-system, Roboto, Noto Sans;
+  height: 100vh; /* Ensure the body has height */
+  margin: 0;     /* Reset default margin */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
