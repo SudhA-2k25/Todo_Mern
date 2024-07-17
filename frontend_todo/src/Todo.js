@@ -13,8 +13,9 @@ export default function Todo() {
     const [editTitle, setEditTitle] = useState("");
     const [editDescription, setEditDescription] = useState("");
 
-    const apiUrl = "http://localhost:8000"; // For local dev
+   // const apiUrl = "http://localhost:8000"; // For local dev
     // const apiUrl = "https://todo-backend-bsh6t4lxz-sudha-2k25s-projects.vercel.app/"; // For deployment
+    const apiUrl = "https://todomern-production.up.railway.app";
 
     // Function to handle adding a new todo item
     const handleSubmit = () => {
